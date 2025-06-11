@@ -1,0 +1,100 @@
+<!--basic structure of html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--link links-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>My repo</title>
+  </head>
+  <body>
+    <nav>
+      <!--the container that contains everything that is the page navigation menu-->
+      <div class="nav__content">
+        <div class="logo"><a href="#">Daniel</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <!--all the links that will take us to other html files that are children of the main page-->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="proyectos.html">Projects</a></li>
+          <li><a href="contacto.html">Contact</a></li>
+          <!--icons to change during dark mode-->
+          <li><button class="switch" id="switch">
+            <li><span><i class="fa-solid fa-sun"></i></span></li>
+            <span><i class="fas fa-moon"></i></span>
+        </button></li>
+        </ul>
+        <!--the entire main section where my photo and my information is-->
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Daniel<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Daniel, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/pngtree-monkey-in-a-suit-png-image_15139512.png" alt="profile" />
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <!--all icons linked from an icon library-->
+       <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="" class="icon"><ion-icon name="logo-youtube"></ion-icon></a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon"><ion-icon name="mail-outline"></ion-icon></a>
+            </li>
+        </ul>
+<!--the footer of the page with my social networks and other sections of the page-->
+        <ul class="menu-footer">
+            <li class="menu-elem"><a href="" class="menu-icon"> Home </a></li>
+            <li class="menu-elem"><a href="Productos.html" class="menu-icon"> Servicios </a></li>
+            <li class="menu-elem"><a href="" class="menu-icon"> Contacto</a></li>
+            <li class="menu-elem"><a href="" class="menu-icon">  </a>Formulary</li>
+            <li class="menu-elem"><a href="" class="menu-icon"> About me </a></li>
+        </ul>
+
+        <p class="text">2025 | all rights reserved</p>
+    </footer>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!--basic structure of html-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <script src="https://kit.fontawesome.com/b408879b64.js"></script>
+<body>
+    <nav>
+                  <!--all the links that will take us to other html files that are children of the main page-->
+
+        <div class="nav__content">
+          <div class="logo"><a href="#">Daniel</a></div>
+          <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+          </label>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="proyectos.html">Projects</a></li>
+          </ul>
+          
+        </div>
+      </nav>
+        </div>
+        <!--In this section, a form is made using labels with icons that refer to the information given.-->
+    <div class="container">
+        <div class="box-info">
+            <h1>contact me</h1>
+            <div class="data">
+                <p><i class="fa-solid fa-phone"></i> +57 3125897696</p>
+                <p><i class="fa-solid fa-envelope"></i> Daniel@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> boyaca chico</p>
+            </div>
+            <!--icons called from icon library-->
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <form>
+            <!--section where the information of the form is filled out with required that does not let you advance if you do not fill out the data-->
+            <div class="input-box">
+                <input type="text" placeholder="First and last name" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="email" required placeholder="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Affair">
+                <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+            <div class="input-box">
+                <textarea placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit">send message</button>
+        </form>
+    </div>
+    </header>
+</body>
+</html>
